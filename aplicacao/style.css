@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 180px;
+    height: 120px;
+    background-color: wheat;
+    color: aqua;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.card_1 {
+    transform: scale(1.1);
+    color: red;
+}
+
+.card_2 {
+    transform: rotate(10deg);
+    color: green;
+}
+
+.card_3 {
+    transform:translateY(-10px);
+    color: yellow;
+}
